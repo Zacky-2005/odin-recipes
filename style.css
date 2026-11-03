@@ -1,0 +1,88 @@
+/* GENERAL PAGE STYLES */
+
+/* Apply the same font and background colour to every page. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+}
+
+/* HOMEPAGE STYLES */
+
+/* Style the main heading on the homepage. */
+.home-recipes h1 {
+    text-align: center;
+    color: #333333;
+}
+
+/* Remove the default bullets and center the recipe links. */
+.home-recipes ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+/* Add space between the recipe links. */
+.home-recipes li {
+    margin-bottom: 12px;
+}
+
+/* Style the links to look like simple buttons. */
+.home-recipes a {
+    display: inline-block;
+    background-color: white;
+    color: #8b4513;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+
+/* RECIPE PAGE STYLES */
+
+/* Keep recipe content at a comfortable width and center it. */
+.recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Center the main heading on each recipe page. */
+.recipe-container h1 {
+    text-align: center;
+}
+
+/* Give the smaller recipe headings a warm brown colour. */
+.recipe-container h2 {
+    color: #8b4513;
+}
+
+/* Make paragraphs easier to read by increasing line spacing. */
+.recipe-container p {
+    line-height: 1.6;
+}
+
+/* Keep ingredient and instruction lists left-aligned. */
+.recipe-container ul,
+.recipe-container ol {
+    text-align: left;
+    line-height: 1.8;
+}
+
+/* Display recipe images as centered blocks. */
+.recipe-container img {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Style the Back to Home link on recipe pages. */
+.recipe-container a {
+    display: inline-block;
+    color: white;
+    background-color: #8b4513;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
